@@ -264,7 +264,7 @@ Animations
 }
 .Rnavbar {
     width: 100%;
-    height: 90px;
+    height: 60px;
     /* background-color: red; */
     display: flex;
     flex-direction: row;
