@@ -489,8 +489,11 @@ nav a:hover:before {
 }
 
 .info img {
+    scale: 0.9;
     max-width: 200px;
     width: 25vw;
+    margin-bottom: -4px;
+}
 }
 
 .info h1 {
