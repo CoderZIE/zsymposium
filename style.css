@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Helvetica;
+    font-family: Helvetica1;
     src: url("./Helvetica-Bold.ttf");
 }
 @font-face {
@@ -9,6 +9,10 @@
 @font-face {
     font-family: Proxima;
     src: url("./Proxima\ Nova\ Font.otf");
+}
+@font-face {
+    font-family: Proxima_bold;
+    src: url("./FontsFree.otf");
 }
 
 * {
@@ -95,7 +99,7 @@ body {
     padding: 12.5px;
     margin-left: 16.75px;
     margin-right: 45.75px;
-    font-family: Helvetica;
+    font-family: Helvetica1;
     text-decoration: none;
     font-size: 25px;
     color: white;
@@ -131,7 +135,7 @@ body {
   Nav Styles
   **/
 .nav {
-    font-family: Helvetica;
+    font-family: Helvetica1;
     z-index: 5;
     position: fixed;
     min-width: 220px;
@@ -226,7 +230,7 @@ nav a:hover:before {
     /* width: max-content; */
     padding: 5px 10px;
     text-align: center;
-    font-family: Helvetica;
+    font-family: Helvetica1;
     /* background-color: #0024c1; */
     color: white;
     font-size: 35px;
@@ -306,7 +310,7 @@ nav a:hover:before {
 .heading1 b, .heading4 b {
     font-size: 50px;
     font-weight: 500;
-    font-family: Helvetica;
+    font-family: Helvetica1;
     color: aliceblue;
     font-size: 200%;
     text-align: center;
@@ -494,13 +498,14 @@ nav a:hover:before {
     width: 25vw;
     margin-bottom: -4px;
 }
-}
+
 
 .info h1 {
     margin: 8px;
     padding: 5px 10px;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: uns;
+    font-family: 'Proxima_bold';
 }
 
 .info p {
@@ -510,7 +515,6 @@ nav a:hover:before {
     font-weight: 500;
     max-width: 40vw;
     padding: 3px;
-
 }
 
 .position {
